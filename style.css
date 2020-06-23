@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "DFKai";
+  src: url("kaiu.ttf") format("truetype");
+}
+
+img {
+  padding: 3px;
+}
+
+.hanzi {
+  font-family: "DFKai";
+  font-size: larger;
+}
+
+#orchestra-work td,
+#orchestra-work th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px;
+}
+
+#orchestra-work th {
+  background-color: #696969;
+  color: #fff;
+  text-align: left;
+  min-width:100px;
+}
+
+#orchestra-work tr:nth-child(even) {
+  background-color: #eee;
+}
